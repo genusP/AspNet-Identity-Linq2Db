@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+  "description": "Genus.AspNet.Identity.Linq2Db Class Library",
+  "authors": [ "genus" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "net451": {
+      "dependencies": {
+        "linq2db": "1.0.7.3"
+      },
+      "frameworkAssemblies": {
+        "System.Transactions": "4.0.0.0"
+      }
+    }
+  },
+  "dependencies": {
+    "Ix-Async": "1.2.5",
+    "Microsoft.AspNet.Identity": "3.0.0-rc1-final",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final"
+  }
+}
